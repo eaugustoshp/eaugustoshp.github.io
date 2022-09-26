@@ -16,6 +16,7 @@ function initialize() {
 
     // Add listener for scroll end of page
     window.addEventListener('scroll', endOfPage);
+    window.addEventListener('touchmove', endOfPage);
 
     // Load initial gifs
     loadInitialGifs();
